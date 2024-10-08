@@ -1,1 +1,34 @@
-/*  your css code here. If applicable */
+.hero {
+	display:flex;
+	justify-content:space-around;
+	align-items:flex-end;
+
+}
+.villan {
+	padding:20px;
+	font-size:10px
+}
+img {
+	height: 200px;
+	width: 400px;
+	object-fit: cover;
+}
+#yes {
+	width:80%;
+	text-align:center
+}
+#no {
+	width:70%;
+	text-align:center;
+}
+#im {
+	position:absolute;
+	
+	background-color:red;
+	color:white;
+	font-size:10px;
+	cursor:pointer;
+}
+button#im:hover {
+  background-color: #ff4c4c;
+}
